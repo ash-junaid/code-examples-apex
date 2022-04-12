@@ -4,7 +4,7 @@ import getEmbeddedSigningUrl from '@salesforce/apex/EmbeddedSigningController.ge
 
 export default class EmbeddedSigningComponent extends LightningElement {
 
-    template = '2712xxxx-xxxx-xxxx-xxxx-xxxxf9b8fa5f';
+    template = '1e85b6a7-2c1e-45d8-990c-ea6affb6dea2';
     description = 'Embedded Signing';
     @api recordId;
     handleClick() {
