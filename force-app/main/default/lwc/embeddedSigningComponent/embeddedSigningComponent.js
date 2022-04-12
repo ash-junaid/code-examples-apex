@@ -16,7 +16,7 @@ export default class EmbeddedSigningComponent extends LightningElement {
                 })
             ))
             .then((signingUrl) => {
-                window.location.href = signingUrl;
+                window.location.href = window.open(signingUrl, '_blank');
             })
             .catch((error) => {
                 console.log('Error:');
